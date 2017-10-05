@@ -1,0 +1,123 @@
+.jumbotron {
+  background: #569cbe;
+  color: white;
+  padding-bottom: 80px; }
+  .jumbotron .btn-primary {
+    background: #569cbe;
+    border-color: #569cbe; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #eeeeee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
+    .jumbotron .lang-logo img {
+      max-width: 100%; }
+	  
+.timebox {
+	background: #76afcb;
+	font-weight: bold;
+	text-align: center;
+}
+
+tbody {
+    display:block;
+    height:700px;
+    overflow:auto;
+}
+
+tbody.onepgm {
+    height:400px;
+}
+
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+	min-height: 40px;
+}
+thead {
+    width: calc( 100% - 1em )
+}
+
+thead.onepgm {
+    width: 100%;
+}
+
+.projname {
+	width: 8%;
+}
+.staffname {
+	width: 6%;
+}
+
+.projpct {
+	width: 4%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.allocpct {
+	width: 4%;
+	text-align: center;
+}
+
+.mopct {
+	width: 100%;  
+	text-align: center;
+}
+
+.sumpct {
+	width: 4%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.projcolor0  {
+	background: #ffffff;
+
+}
+
+.projcolor1  {
+	background: #b8d6e4;
+}
+
+.projcolor2  {
+	background: #ddddff;
+}
+
+.projcolor3  {
+	background: #ffffdd;
+}
+
+.tentative {
+	font-style: italic;
+	color: red;
+}
+
+.overalloc {
+	background: #ffd0d0;
+	font-weight: bold;
+}
+
+.underalloc {
+	background: #d0d0ff;
+	font-weight: bold;
+}
+
+.pgmexpired {
+	background: #cccccc;
+	font-style: italic;
+	font-weight: bold;
+}
